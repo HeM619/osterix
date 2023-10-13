@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .forms{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 200px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 10px 5px 10px grey;
+    }
+    body{
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .forms, input{
+        width: 500px;
+        /* border-radius: 2px; */
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <form class="forms">
+                <h2>CredoFaster</h2>
+                <h5>ActiveData</h5>
+                <input style="width: 200px;" type="text" class="form-control" placeholder="email" name="Email">
+                <input style="width: 200px;"  type="password" class="form-control" placeholder="password" name="password">
+                <button style="color: white;background-color: indigo; width: 100px; border-radius: 30px; " type="submit">Login</button>
+            </form>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
